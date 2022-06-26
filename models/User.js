@@ -8,5 +8,5 @@ const userSchema = mongoose.Schema({
   token: {type: String, default: null}
 })
 
-exports = mongoose.Model("user", userSchema);
+module.exports = mongoose.model("user", userSchema);
 
